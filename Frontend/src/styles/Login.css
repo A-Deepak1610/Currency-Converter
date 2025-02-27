@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.logincontent{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 300px;
+}
+form input{
+    font-size: 18px;
+}
+.logincontent h1{
+    text-align: center;
+}
+form{
+    /* position: relative; */
+    margin-top: 25px;
+}
+.username{
+    position: relative;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.password{
+    position: relative;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.sumbitbutton{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-user{
+    margin-top: 22px;
+    margin-left: 350px;
+    position: absolute;
+    z-index: 1;
+    font-size: 18px;
+}
+.fa-lock{
+    z-index: 1;
+    margin-top: 22px;
+    margin-left: 350px;
+    position: absolute;
+    font-size: 18px;
+}
+.error{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.errorpage{
+    margin-top: 15%;
+    font-size: 35px;
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+.adminpage_container {
+  background-color: #e3eee8;
+  min-height: 100vh; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding-top: 20px; 
+}
+
+.adminpageh1 {
+  margin: 20px 0;
+}
+
+.table_info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px; 
+}
+
+.marktable {
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.marktable th {
+  background: linear-gradient(135deg, #4caf50, #2e8b57);
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border-bottom: 2px solid #ddd;
+}
+
+.marktable td {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+.signoutadmin{
+  margin-left:92%;
+  margin-top: 20%;
+  background-color: yellow  ;
+  border: none;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.marktable tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.marktable tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+.marktable tbody tr:hover {
+  background: #c1f0c1;
+  transition: ease-in-out;
+}
+
+.delete button {
+  cursor: pointer;
+  background-color: transparent;
+  width: 70px;
+}
+.successdelete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  background-color: rgb(10, 136, 10);
+  color: #fff;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 1250px;
+  position: absolute;
+  margin-top:26px;
+}
+@media screen and (max-width: 700px) {
+  .marktable {
+    width: 50%;
+  }
+  .adminpage_container {
+    background-color: #fff;
+  }
+}
